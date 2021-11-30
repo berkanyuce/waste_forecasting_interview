@@ -138,8 +138,8 @@ def heatmap_viz(waste_forecasting,location):
  
 #CSV to dataframe
 #Write your own csv file locations
-waste_forecasting = pd.read_csv('https://raw.githubusercontent.com/berkanyuce/waste_forecasting_interview/waste_forecasting_anonym.csv', index_col=0)
-location = pd.read_csv('https://raw.githubusercontent.com/berkanyuce/waste_forecasting_interview/location_data_anonym.csv', index_col=0)
+waste_forecasting = pd.read_csv('https://raw.githubusercontent.com/berkanyuce/waste_forecasting_interview/main/waste_forecasting_anonym.csv', index_col=0)
+location = pd.read_csv('https://raw.githubusercontent.com/berkanyuce/waste_forecasting_interview/main/location_data_anonym.csv', index_col=0)
 
 #User chooses analyze type
 analyze_type = st.sidebar.selectbox('Select Analyze Type', ["Single Service Point", "Service Points' Heatmap", "Project Process and Opinions"])
